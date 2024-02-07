@@ -1,0 +1,6 @@
+spring:
+  kafka:
+    bootstrap-servers: 172.20.47.194:9092
+    streams:
+      bootstrap-servers: 172.20.47.194:9092
+      application-id: spring-kafka-stream-id

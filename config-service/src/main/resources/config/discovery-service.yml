@@ -1,0 +1,15 @@
+server:
+  port: 8061
+  forward-headers-strategy: framework
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_SERVER:http://localhost:8061/eureka}
+    registerWithEureka: false
+    fetchRegistry: false
+
+spring:
+  output:
+    ansi:
+      enabled: always
